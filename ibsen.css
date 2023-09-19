@@ -1,17 +1,25 @@
 .speech {
     font-family: Arial, sans-serif; 
-    font-size: 16px; 
+    font-size: 14px; 
     color: black; 
 }
 
 .direction {
     font-family: Times New Roman, serif; 
-    font-size: 14px; 
+    font-size: 12px; 
     color: black; 
-    background-color: #f5f5f5; 
+    background-color: #daf4f5; 
 }
 
-.name {
-    font-weight: bold; 
+.direction:hover {
+    background-color: rgb(230, 238, 199); /* Change background-color on hover */
+    color: rgb(219, 76, 20); 
+}
+
+.NORA {
     color: blue; 
+}
+
+.HELMER {
+    color: green; 
 }
