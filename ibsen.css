@@ -23,3 +23,39 @@
 .HELMER {
     color: rgb(243, 6, 58); 
 }
+table{
+    width:50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 3px solid #40b0c4;
+    padding: 16px;
+    text-align: center;
+    font-weight: bold;
+}
+th {
+    background-color: #e4f892;
+    border: 3px solid #40b0c4;
+    color: #02113f;
+    padding:10px;
+}
+
+td {
+    border: 3px solid #40b0c4;
+    padding: 10px;
+    text-align: center;
+    color:rgb(78, 29, 13)
+   
+}
+
+tbody{
+    background-color: #f2f2f2;
+}
+tr:nth-child(even) {
+     
+    background-color:rgb(150, 212, 155); 
+}
+tr:nth-child(odd) {
+     
+    background-color:rgb(209, 140, 211); 
+}
+
