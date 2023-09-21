@@ -23,6 +23,18 @@
 .HELMER {
     color: rgb(243, 6, 58); 
 }
+
+.NORA:hover {
+    text-shadow:2px 2px 4px #6eb97d; 
+    border:3px solid blue;
+    cursor: pointer;  
+}
+.HELMER:hover {
+    text-shadow:2px 2px 4px rgb(95, 148, 152); 
+    border: 3px solid #FF5733;
+    cursor: pointer; 
+}
+
 table{
     width:50%;
     border-collapse: collapse;
